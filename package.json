@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage" : "http://ushijima-kakashi.github.io/portfolio",
+  "homepage": "http://ushijima-kakashi.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-		"deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
